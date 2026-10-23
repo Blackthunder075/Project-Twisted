@@ -1,0 +1,16 @@
+extends Node2D
+@onready var ray_cast_right: RayCast2D = $RayCastRight
+@onready var ray_cast_left: RayCast2D = $RayCastLeft
+
+
+const speed = 60
+var direction = 1
+
+func _process(delta):
+	if $RayCastRight.is_colliding():
+		direction = -1
+		$AnimatedSprite2D.flip_h=true	
+	if $RayCastLeft.is_colliding():
+		direction = 1
+		$AnimatedSprite2D.flip_h=false
+	position.x += direction * speed * delta
