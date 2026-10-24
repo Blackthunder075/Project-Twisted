@@ -1,16 +1,25 @@
 [gd_scene format=3 uid="uid://bbr5n2uqe3ar8"]
 
-[ext_resource type="Texture2D" uid="uid://c4hhpyqjwktpx" path="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/platforms.png" id="1_mi635"]
+[ext_resource type="Texture2D" uid="uid://c4hhpyqjwktpx" path="res://brackeys_platformer_assets/brackeys_platformer_assets/sprites/platforms.png" id="1_ba0x2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eqrm3"]
 size = Vector2(32.5, 9)
+
+[sub_resource type="Animation" id="Animation_mi635"]
+resource_name = "move"
+loop_mode = 2
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_s8bxr"]
+_data = {
+&"move": SubResource("Animation_mi635")
+}
 
 [node name="Platform" type="AnimatableBody2D" unique_id=377175492]
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1557427304]
 position = Vector2(-0.0037878752, 0)
 scale = Vector2(1.0002367, 1)
-texture = ExtResource("1_mi635")
+texture = ExtResource("1_ba0x2")
 region_enabled = true
 region_rect = Rect2(15.778183, 0, 32.601067, 8.928907)
 
@@ -18,3 +27,7 @@ region_rect = Rect2(15.778183, 0, 32.601067, 8.928907)
 position = Vector2(-0.25, 0)
 shape = SubResource("RectangleShape2D_eqrm3")
 one_way_collision = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1485908469]
+libraries/ = SubResource("AnimationLibrary_s8bxr")
+autoplay = &"move"
