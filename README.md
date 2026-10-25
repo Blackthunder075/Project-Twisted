@@ -1,58 +1,25 @@
-# Project-Twisted
-My first game and metroidvania.
-# Brackeys Platformer
+# Brackeys Godot Platformer
 
-## About the Project
+This is a 2D platformer I'm making in Godot. I started with the Brackeys game development tutorial and have been working on it to learn how to make my own games.
 
-This is a 2D platformer project made in Godot while following the Brackeys Godot game development tutorial. The tutorial helped me learn the basics of game development, including player movement, animations, audio, score systems, labels, and functions. I also spent time debugging errors and understanding how different parts of the game work together.
+The game has player movement, platforms, coins, and slime enemies. I've also added a main menu and a game-over screen. I exported a Windows demo so people can actually play it.
 
-My original plan was to make a metroidvania, but I decided to change direction and focus on building a polished, fun, and fully playable platformer first. I plan to keep improving the game by adding more gameplay elements and refining the overall experience.
+A lot of the development has been trying things out, fixing bugs, changing scripts, and figuring out how different parts of Godot work together. Things don't always work the first time, but that's pretty much how I've been learning.
 
-## Built With
+I'm still working on the game and there's definitely stuff I want to improve, especially the gameplay and overall polish.
 
-- Godot Engine
-- GDScript
-- 2D game development tools
+## How to play
 
-## How to Run
+To play the Windows demo, download it from my itch.io page, extract the ZIP, and run the EXE. Keep any files that came with the download in the same folder as the EXE.
 
-1. Download the latest playable demo from the [GitHub Releases](../../releases) page.
-2. Download the Windows game file attached to the release.
-3. If the download is a ZIP file, extract it first.
-4. Keep the executable together with any required supporting files.
-5. Run the game's `.exe` file.
+To open the project yourself, download or clone this repository, open Godot, and import the project using the `project.godot` file.
 
-**Note:** This is an early demo, and the game is still being polished.
+## Made with
 
-## How to Play
-
-- Launch the game using the Windows executable.
-- Follow the instructions displayed in the game, if available.
-- Experiment with the platforming mechanics and score system.
-
-The controls and gameplay may change as development continues.
-
-## Current Progress
-
-- Completed the Brackeys Godot tutorial.
-- Learned about animations, audio, score systems, labels, and functions.
-- Practised debugging and fixing errors.
-- Uploaded the project to GitHub.
-- Exported a playable Windows demo.
-- Changed the project direction from a metroidvania to a platformer.
-
-## Future Plans
-
-- Polish player movement and animations.
-- Improve the gameplay and level design.
-- Add more interesting platforming elements.
-- Improve audio and visual feedback.
-- Make the game feel more complete and enjoyable to play.
-
-## Screenshots
-
-Screenshots will be added as the game develops.
+I used Godot and GDScript to make the game, and GitHub to keep track of my project files and changes.
 
 ## Credits
 
-Thanks to Brackeys for the Godot tutorial that helped me get started with this project.
+The project started with the Brackeys Godot tutorial, which helped me get started. I've been using what I learned to experiment and build on the project myself.
+
+This is still a work in progress, and I'm using it to get better at game development, one bug at a time.
