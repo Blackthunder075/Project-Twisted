@@ -1,0 +1,15 @@
+Camera2D
+Label
+TileMap
+Button
+VBoxContainer
+CenterContainer
+Control
+ColorRect
+Area2D
+ProgressBar
+CanvasLayer
+CollisionShape2D
+AnimationPlayer
+AudioStreamPlayer2D
+AudioListener2D

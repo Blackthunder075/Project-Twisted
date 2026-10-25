@@ -171,16 +171,40 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_eqrm3"]
 radius = 5.8309517
 
+<<<<<<< HEAD
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eqrm3"]
+size = Vector2(17, 21.5)
+
+[node name="Player" type="CharacterBody2D" unique_id=304849957 groups=["player"]]
+collision_layer = 2
+script = ExtResource("1_g2els")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=488693871]
+=======
 [node name="Player" type="CharacterBody2D" unique_id=304849957]
 collision_layer = 2
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=488693871]
 position = Vector2(58, 36)
+>>>>>>> 3409e8525225b06dfa1f0d9611f3c7f17af784ca
 sprite_frames = SubResource("SpriteFrames_eqrm3")
 animation = &"run"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=744437452]
+<<<<<<< HEAD
+position = Vector2(0, 5)
+shape = SubResource("CircleShape2D_eqrm3")
+
+[node name="AttackArea" type="Area2D" parent="." unique_id=56067778]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=1459414502]
+position = Vector2(8.5, 1.25)
+shape = SubResource("RectangleShape2D_eqrm3")
+=======
 position = Vector2(57, 42)
 shape = SubResource("CircleShape2D_eqrm3")
+>>>>>>> 3409e8525225b06dfa1f0d9611f3c7f17af784ca
